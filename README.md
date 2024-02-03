@@ -16,4 +16,6 @@ Follow link --------------- to view walkthrough video showcasing API functionali
 
 <li>https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial</li>
 
-<li></li>
+<li>https://mongoosejs.com/docs/subdocs.html</li>
+
+<li>https://masteringjs.io/tutorials/mongoose/objectid</li>
