@@ -34,7 +34,7 @@ module.exports = {
 
       if (!user) {
         return res.status(404).json({
-          message: 'Thought created, but no user match',
+          message: 'Thought created',
         })
       }
 
