@@ -8,7 +8,7 @@ Today, my goal was to develop a back end web application utilizing MongoDB to la
 
 Follow link https://github.com/brutchley9/social-network-api to access GitHub repository for this website (including code).
 
-Follow link --------------- to view walkthrough video showcasing API functionality.
+Follow link https://drive.google.com/file/d/102iq6F2jjjhSRUAbJg51t0khowCBUb23/view to view walkthrough video showcasing API functionality.
 
 ---
 
