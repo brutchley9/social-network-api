@@ -3,8 +3,8 @@ const { Schema, model } = require('mongoose');
 
 //reactionSchema subdocument will be nested within model for thoughtSchema
 
-const reactionSchema = new mongoose.Schema({
-    reactionId: mongoose.ObjectId,
+/*const reactionSchema = new Schema({
+    reactionId: Schema.Types.ObjectId,
     reactionBody: { type: String, required: true, maxlength: 280 },
     username: { type: String, required: true },
     createdAt: { type: Date, default: Date.now },
@@ -12,7 +12,7 @@ const reactionSchema = new mongoose.Schema({
         getters: true,
     },
     id: false
-})
+})*/
 
 //thoughtSchema below including reactionSchema subdocument
 
@@ -32,7 +32,7 @@ const thoughtSchema = new Schema(
             type: String,
             required: true,
         },
-        reactions: [reactionSchema]
+        /*reactions: [reactionSchema]*/
     },
     {
         toJSON: {
@@ -44,9 +44,9 @@ const thoughtSchema = new Schema(
 
 //created a virtual for thought Schema that will included number of reactions
 
-thoughtSchema.virtual('reactionCount').get(function () {
+/*thoughtSchema.virtual('reactionCount').get(function () {
     return this.reactions.length;
-})
+})*/
 
 
 const Thought = model('thought', thoughtSchema);
